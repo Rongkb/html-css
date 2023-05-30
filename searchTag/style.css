@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #82c7b2;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    background: #fff;
+    border-radius: 10px;
+    width: 400px;
+    padding: 20px;
+}
+.title {
+    font-size: 22px;
+}
+.content {
+    border: 1px solid #4e4b4b;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+.content li {
+    background: green;
+    color: #fff;
+    border-radius: 3px;
+    list-style: none;
+    margin: 4px 3px;
+    padding: 10px;
+}
+.content li i {
+    font-size: 16px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.content input {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin: 10px;
+    flex: 1;
+}
+.remove-all {
+    background: #2ae643;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+.remove-all:hover {
+    background: #11996c;
+}
+.content li i:hover {
+color:#2ae643
+}
